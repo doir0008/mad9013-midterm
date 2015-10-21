@@ -1,0 +1,270 @@
+* {
+    outline: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+body {
+    background-color: #4CC6FF;
+}
+h1 {
+    font-size: 3em;
+    color: #99DFFF;
+}
+h2 {
+    font-size: 2.5em;
+    color: #26637F;
+}
+h3 {
+    font-size: 2em;
+    color: #26637F;
+}
+img {
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+p {
+    margin: 10px 5px 10px 5px;
+}
+li a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+li {
+    text-align: center;
+}
+.wrapper {
+    margin: 0% 5% 0% 5%; 
+}
+.masthead {
+    background-image: url("http://lorempixel.com/600/200/cats/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 150px;
+    text-align: center;
+
+}
+.mainnav {
+    margin-bottom: 20px;
+    background-color: #26637F;
+}
+.content {
+    margin-bottom: 20px;
+}
+.primary {
+    background-color: #99DFFF;
+}
+.side {
+    margin-bottom: 20px;
+    background-color: #3D9FCC;
+}
+.footer {
+    height: 50px;
+    background-color: #4C6F7F;
+}  
+
+
+
+@media all and (max-width: 60em) and (min-width: 35em){
+    body {
+        background-color: #4CC6FF;
+    }
+    img {
+        width: 50%;
+        float: left;
+    }
+    .wrapper {
+        margin: 0px 10px 20px 10px;
+    }
+    .masthead {
+        margin-bottom: 20px;
+        background-image: url("http://lorempixel.com/600/400/cats/");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        text-align: center;
+        color: #99DFFF;
+    }
+    .mainnav {
+        background-color: #26637F;
+        height: 50px;
+        text-align: center;
+    }
+    ul li{
+        display: inline-block;
+        width: 20%;
+        margin: 1% 0%;
+    }
+    li a {
+        text-decoration: none;
+    }
+    .content {
+        max-width: 63%;
+    }
+    .primary {
+        float: left;
+        margin-bottom: 20px;
+        background-color: #99DFFF;
+        margin-right: 10px;
+    }
+    .side {
+        max-width: 37%;
+        float: right;
+        background-color: #3D9FCC;
+    }
+    .footer {
+
+        clear: both;
+        background-color: #4C6F7F;
+        height: 50px;
+    }  
+}
+
+@media all and (min-width: 60em) and (max-width: 61em){
+    body {
+        background-color: #4CC6FF;
+    }
+    img {
+        width: 60%;
+        float: left;
+        margin-right: 5px;
+    }
+    p {
+        margin: 5px 5px 10px 5px;
+    }
+    .wrapper {
+        margin: 0;
+        max-width: 1600px;
+    }
+    li {
+        padding: 3px;
+        font-size: 1em;
+        display: block;
+    }
+    li a {
+        text-decoration: none;
+    }
+    .masthead {
+        height: 300px;
+        background-image: url("http://lorempixel.com/1600/300/cats/");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #99DFFF;
+    }
+    .mainnav {
+        float: left;
+        margin: 10px 0px 0px 0px;
+        width: 25%;
+        height: 250px;
+        background-color: #26637F;
+        background-image: url("http://lorempixel.com/100/100/cats/");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .content {
+        float: left;
+        width: 50%;
+    }
+    .primary {
+        background-color: #99DFFF;
+        margin: 10px 5px 0px 5px;
+        padding: 5px 5px 5px 5px;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 10px;
+        -moz-column-gap: 10px;
+        column-gap: 50px;
+    }
+    .side {
+        background-color: #3D9FCC;
+        margin: 10px 0px 10px 0px;
+        padding: 5px 0px 5px 0px;
+        width: 25%;
+        float: left;
+    }
+    .footer {
+        background-color: #4C6F7F;
+        clear: both;
+        height: 50px;
+        margin: 0px 5px 0px 5px;
+    }    
+}
+
+
+@media all and (min-width: 61em){
+        body {
+        background-color: #4CC6FF;
+    }
+    img {
+        width: 60%;
+        float: left;
+        margin-right: 5px;
+    }
+    p {
+        margin: 5px 5px 10px 5px;
+    }
+    .wrapper {
+        margin: 0;
+        max-width: 1600px;
+    }
+    li {
+        padding: 3px;
+        font-size: 1em;
+        display: block;
+    }
+    li a {
+        text-decoration: none;
+    }
+    .masthead {
+        height: 300px;
+        background-image: url("http://lorempixel.com/1600/300/cats/");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #99DFFF;
+    }
+    .mainnav {
+        float: left;
+        margin: 10px 0px 0px 0px;
+        width: 25%;
+        height: 250px;
+        background-color: #26637F;
+        background-image: url("http://lorempixel.com/100/100/cats/");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .content {
+        float: left;
+        width: 50%;
+    }
+    .primary {
+        background-color: #99DFFF;
+        margin: 10px 5px 0px 5px;
+        padding: 5px 5px 5px 5px;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 10px;
+        -moz-column-gap: 10px;
+        column-gap: 50px;
+    }
+    .side {
+        background-color: #3D9FCC;
+        margin: 10px 0px 10px 0px;
+        padding: 5px 0px 5px 0px;
+        width: 25%;
+        float: left;
+    }
+    .footer {
+        background-color: #4C6F7F;
+        clear: both;
+        height: 50px;
+        margin: 0px 5px 0px 5px;
+    } 
+}
