@@ -28,11 +28,15 @@ p {
 }
 li a {
     text-decoration: none;
+    color: black;
+}
+li a:hover {
+    color: white;
+    background-color: black;
 }
 ul {
     list-style: none;
     padding: 0px;
-    color: black;
 }
 li {
     text-align: center;
