@@ -32,10 +32,10 @@ li a {
 ul {
     list-style: none;
     padding: 0px;
+    color: black;
 }
 li {
     text-align: center;
-    color: black;
 }
 .wrapper {
     margin: 0% 5% 0% 5%; 
